@@ -1,0 +1,30 @@
+name: jane-street-kaggle
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - conda-build
+  - jupyterlab
+  - polars
+  - scikit-learn
+  - lightgbm
+  - catboost
+  - xgboost
+  - jax
+  - numpy
+  - scipy
+  - bokeh
+  - dask
+  - dask-labextension
+  - distributed
+  - matplotlib
+  - pandas
+  - pip
+  - python-graphviz
+  - ipycytoscape
+  - pyarrow
+  - s3fs
+  - zarr
+  - pooch
+  - xarray
+  - mamba
