@@ -32,4 +32,4 @@ dependencies:
     - polars
     - penzai
     - grpcio
-    - google
+    - google-api-python-client
