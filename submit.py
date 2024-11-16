@@ -6,6 +6,13 @@ import polars as pl
 import kaggle_evaluation.jane_street_inference_server
 
 
+# LOAD YOUR MODEL HERE
+
+
+
+
+
+# This global variable will store the responders from the previous day, which are passed in at time_id == 0.
 lags_ : pl.DataFrame | None = None
 
 
@@ -46,7 +53,7 @@ if __name__ == '__main__':
     else:
         inference_server.run_local_gateway(
             (
-                '/kaggle/input/jane-street-real-time-market-data-forecasting/test.parquet',
-                '/kaggle/input/jane-street-real-time-market-data-forecasting/lags.parquet',
+                '~/jane-street-real-time-market-data-forecasting/test.parquet',
+                '~/jane-street-real-time-market-data-forecasting/lags.parquet',
             )
         )
