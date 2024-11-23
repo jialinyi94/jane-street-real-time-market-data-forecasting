@@ -15,6 +15,7 @@ dependencies:
   - scipy
   - bokeh
   - dask
+  - dask-ml
   - dask-labextension
   - distributed
   - matplotlib
