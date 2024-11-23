@@ -28,6 +28,8 @@ dependencies:
   - pooch
   - xarray
   - mamba
+  - ta-lib
+  - sktime-all-extras
   - pip:
     - polars
     - penzai
